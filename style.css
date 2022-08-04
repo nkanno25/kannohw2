@@ -53,7 +53,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("./assets/images/elon-musk.jpg");
+    background-image: url("https://wallpapercave.com/dwp2x/wp5227305.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -72,22 +72,22 @@ p {
 
 #tesla {
     float: left;
-    width: 48%;
+    width: 47%;
     height: 440px;
-    padding: 10px 10px 10px 10px;
+    padding: 5px;
     border: solid rgb(255, 255, 255);
     border-width: 7px; 
-    margin: 10px, 10px, 10px, 10px;  
+    margin: 5px;  
 }
 
 #neuralink {
-    float: left;
-    width: 48%;
+    float: right;
+    width: 47%;
     height: 440px;
-    padding: 10px 10px 10px 10px;
+    padding: 5px;
     border: solid rgb(255, 255, 255);
     border-width: 7px;
-    margin: 10px, 10px, 10px, 10px;
+    margin: 5px;
 }
 
 #spacex {
@@ -115,7 +115,7 @@ p {
     position: relative;
 }
 
-.benefits {
+.projects {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -126,52 +126,64 @@ p {
     background-color: #9c9c9c;
 }
 
-.benefit-lead {
+.run-buddy {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
+.park-buddy {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-cost {
+.game {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+.run-buddy h3 {
+    font-size: 32px;
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+.park-buddy h3 {
+    font-size: 32px;
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-cost h3 {
+.game h3 {
+    font-size: 32px;
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
+.run-buddy img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 225px;
 }
 
-.benefit-brand img {
+.park-buddy img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 225px;
 }
 
-.benefit-cost img {
+.game img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 2250px;
 }
 
 .spacex {
@@ -186,9 +198,9 @@ p {
 }
 
 .teslaneura {
-    padding: 25px;
+    padding: 15px;
     height: 500px;
-    margin: 30px;
+    margin: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #9c9c9c;
     color: #ffffff;
@@ -196,22 +208,22 @@ p {
 }
 
 .spacex img {
-    width: 390px;
-    height: 185px;
-    padding-bottom: 11px;
+    width: 55%;
+    height: 207px;
+    vertical-align: middle;
 }
 
 .tesla img {
-    width: 395px;
-    height: 185px;
+    width: 100%;
+    height: 200px;
     padding-bottom: 11px;
+    
 }
 
 .neuralink img {
-    width: 395px;
-    height: 185px;
+    width: 100%;
+    height: 200px;
     padding-bottom: 11px;
-    align-items: center;
 }
 
 .social-media-marketing img {
